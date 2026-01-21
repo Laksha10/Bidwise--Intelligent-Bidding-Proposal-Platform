@@ -52,36 +52,32 @@ BidWise is a full-stack **MERN application** designed to streamline the bidding 
 ```bash
 git clone https://github.com/Laksha10/Bidwise--Intelligent-Bidding-Proposal-Platform.git
 cd Bidwise--Intelligent-Bidding-Proposal-Platform
+```
 
-
-Code snippet
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/bidwise
-JWT_SECRET=your_secret_key
-AI_ENGINE_URL=http://localhost:5001
-Install & Run Services:
+### 2. Install & Run Services:
 
 Backend (Node):
 
-Bash
+```bash
 cd server
 npm install
 npm run dev
-Frontend (React):
+```
 
-Bash
+Frontend (React):
+```bash
 cd client
 npm install
 npm run dev
+```
 AI Engine (Python):
-
-Bash
+```bash
 cd ai_engine
 python -m venv venv
 source venv/bin/activate # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
-
+```
 ##🧭 How to Use BidWise
 
 🏗️ Post a Request
