@@ -78,16 +78,17 @@ source venv/bin/activate # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
+----
 ## 🧭 How to Use BidWise
 
--**🏗️ Post a Request**
+- **🏗️ Post a Request**
 Service seekers can post detailed service requests specifying requirements, scope, and budget.
 
--**📝 Place a Bid**
+- **📝 Place a Bid**
 Companies can browse open requests and submit structured proposals.
 
--**🤖 AI Ranking**
+- **🤖 AI Ranking**
 The system analyzes proposal text against the request and assigns an AI-generated Match Score.
 
--**🔔 Live Notifications**
+- **🔔 Live Notifications**
 Seekers receive instant toast notifications whenever a new bid is submitted.
